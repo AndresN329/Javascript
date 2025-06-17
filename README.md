@@ -4,7 +4,7 @@ Este taller te permitirá reforzar los conceptos vistos sobre JavaScript. Comple
 
 ---
 
-## ✅ Parte 1: Explorando JavaScript
+## Parte 1: Explorando JavaScript
 
 ### 1.1 ¿Qué es JavaScript y en qué se diferencia de HTML y CSS?
 
@@ -30,7 +30,7 @@ JavaScript es un lenguaje de programación que permite hacer páginas web intera
 
 ---
 
-## ✅ Parte 2: Variables y Tipos de Datos
+## Parte 2: Variables y Tipos de Datos
 
 ```js
 // 2.1
@@ -56,8 +56,11 @@ let vacio = null;
 let esVerdadero = true;
 console.log(vacio, esVerdadero);
 
+```
+
 ## Parte 3: Entrada y Salida de Datos
 
+```js
 // 3.1
 let edad = prompt("¿Cuál es tu edad?");
 console.log("Tienes " + edad + " años");
@@ -92,9 +95,11 @@ console.log(5 === "5");    // false
 console.log(true && false); // false
 console.log(false || true); // true
 console.log(!true);         // false
+```
 
 ## Parte 5: Condicionales
 
+```js
 // 5.1
 let numero = prompt("Ingresa un número:");
 numero = Number(numero);
@@ -118,9 +123,12 @@ if (usuario === "Admin") {
 let numero2 = prompt("Escribe un número:");
 let resultado2 = (numero2 % 2 === 0) ? "Es par" : "Es impar";
 console.log(resultado2);
+```
 
 ## Parte 6: Consola del Navegador
 
+
+```js
 // 6.1
 console.info("Este es un mensaje informativo");
 console.warn("Este es un mensaje de advertencia");
@@ -151,8 +159,9 @@ let saludo = "Hola";
 // Muestra el saludo en consola
 console.log(saludo);
 
+```
  Parte 8: Desafío Final
-
+ ```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -170,3 +179,4 @@ console.log(saludo);
     <h1>Abre la consola para ver el resultado</h1>
 </body>
 </html>
+ ```
