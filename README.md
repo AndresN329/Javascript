@@ -33,29 +33,32 @@ JavaScript es un lenguaje de programación que permite hacer páginas web intera
 ## Parte 2: Variables y Tipos de Datos
 
 ```js
-// 2.1
-let nombre = "Andrés";
-console.log("Hola, " + nombre);
+// Exploring JavaScript
 
-// 2.2
-let numeroEntero = 10;
-let numeroDecimal = 3.14;
-let texto = "Hola mundo";
-console.log(numeroEntero, numeroDecimal, texto);
+//2.1
+let name = "Andres";
+console.log("Hi," + name);
 
-// 2.3
+//2.2
+let whole = 7;
+let decimal = 2.2;
+let string = "Text string";
+console.log(whole);
+console.log(decimal);
+console.log(string);
+
+//2.3
 const PI = 3.1416;
-PI = 3; // Error: Assignment to constant variable.
+// const PI = 3.1415; error 
 
-// 2.4
-let sinValor;
-console.log(sinValor); // undefined
+//2.4
+//let worthless;
+console.log(worthless);
 
-// 2.5
-let vacio = null;
-let esVerdadero = true;
-console.log(vacio, esVerdadero);
-
+//2.5
+let Void = null;
+let boolean = true;
+console.log(Void, boolean);
 ```
 
 ## Parte 3: Entrada y Salida de Datos
@@ -71,9 +74,9 @@ alert("¡Bienvenido al sitio!");
 // 3.3
 let continuar = confirm("¿Deseas continuar?");
 console.log(continuar);
-
+```
 ## Parte 4: Operadores
-
+```js
 // 4.1
 let a = 8;
 let b = 3;
@@ -160,7 +163,8 @@ let saludo = "Hola";
 console.log(saludo);
 
 ```
- Parte 8: Desafío Final
+ ## Parte 8: Desafío Final
+ 
  ```html
 <!DOCTYPE html>
 <html lang="es">
