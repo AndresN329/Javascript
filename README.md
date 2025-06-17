@@ -64,16 +64,18 @@ console.log(Void, boolean);
 ## Parte 3: Entrada y Salida de Datos
 
 ```js
-// 3.1
-let edad = prompt("¿Cuál es tu edad?");
-console.log("Tienes " + edad + " años");
+//Data Input and Output
 
-// 3.2
-alert("¡Bienvenido al sitio!");
+//3.1
+let age = prompt("Please enter your age:");
+console.log(`you are ${age} years old`);
 
-// 3.3
-let continuar = confirm("¿Deseas continuar?");
-console.log(continuar);
+//3.2 
+alert("Welcome to this web page");
+
+//3.3
+let answer = confirm("Do you want to continue?");
+console.log("Answer:", answer);
 ```
 ## Parte 4: Operadores
 ```js
